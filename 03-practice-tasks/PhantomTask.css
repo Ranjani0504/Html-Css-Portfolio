@@ -1,0 +1,337 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:30% 30% 30% ;
+    grid-template-rows: 400px  400px 400px 400px ;
+    padding: 40px;
+}
+
+/* Background Image */
+
+main > #art1
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic01.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art2
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic02.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art3
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic03.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art4
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic04.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art5
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic05.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art6
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic06.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art7
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic07.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art8
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic08.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art9
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic09.jpg);   
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art10
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic10.jpg);   
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art11
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic11.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+main > #art12
+{
+    background-image: url(https://html5up.net/uploads/demos/phantom/images/pic12.jpg);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-size: cover;
+    margin: 20px;
+}
+
+/* Background Color */
+
+main > #art1 > div
+{
+    background-color:#e88c9bc0;  
+    height: 100%;
+    transition: 2s;
+}
+
+main > #art2 > div
+{
+    background-color:#71b9e2c4; 
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art3 > div
+{
+    background-color:#67ada2c8;
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art4 > div
+{
+    background-color:#cc75a2c3;  
+    height: 100%;
+    transition: 2s;
+}
+
+main > #art5 > div
+{
+    background-color:#a586c0c0; 
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art6 > div
+{
+    background-color:#7386cfc5; 
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art7 > div
+{
+    background-color:#82c0e1c0; 
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art8 > div
+{
+    background-color:#6aada8c1;  
+    height: 100%;
+    transition: 2s;
+}
+
+main > #art9 > div
+{
+    background-color:#f296abc1;  
+    height: 100%;
+    transition: 2s;
+}
+
+main > #art10 > div
+{
+    background-color:#9d7ab1be;  
+    height: 100%;
+    transition: 2s;
+}
+
+main > #art11> div
+{
+    background-color:#6e87c5c5; 
+    height: 100%; 
+    transition: 2s;
+}
+
+main > #art12> div
+{
+    background-color:#b35e97c3; 
+    height: 100%; 
+    transition: 2s;
+}
+
+/* Background color transparent */
+
+main > #art1 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art2 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art3 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art4 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art5 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art6 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art7 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art8 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art9 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art10 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art11> div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main > #art12 > div:hover
+{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* article Zoom */
+
+main > article:hover
+{
+    transition: 2.5s;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+/* article div */
+
+main > article > div  
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* h2 */
+
+main > article > div > div > h2
+{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding-bottom: 10px;
+}
+
+/* p */
+
+main > article > div > div > p
+{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    display: none;
+}
+
+/* hidden p */
+main > article:hover p
+{
+    display: block;
+    color: white;
+    transition: 0.5s;
+}
+
+

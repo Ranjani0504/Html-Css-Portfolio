@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(./../images/Coffee.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    background-color: rgba(255, 255, 255, 0.558);
+}
+
+nav > ul
+{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    list-style-type: none;  
+}
+
+/* nav > ul > li > a */
+nav a
+{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+a:hover
+{
+    background-color: rgba(250, 235, 215, 0.832);
+    color: black;
+}
+
+#down 
+{
+    background-color: bisque;
+    position: absolute;
+    display: none;
+}
+
+#drop:hover #down
+{
+    display: block;
+}

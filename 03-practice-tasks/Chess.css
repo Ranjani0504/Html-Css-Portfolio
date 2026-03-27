@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(8,50px);
+    grid-template-rows: repeat(8,50px);
+    background-color: rgba(255, 105, 180, 0.574);
+    
+}
+
+/* 
+section :nth-child(2n)
+{
+    background-color: black;
+}
+
+section :nth-child(2n-1)
+{
+    background-color: white;
+} */
+
+.white
+{
+    background-color: white;
+}
+
+.black
+{
+    background-color: black;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
