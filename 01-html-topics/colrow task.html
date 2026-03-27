@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan and Rowspan</title>
+</head>
+<body>
+<marquee behavior="" direction="">
+<table >
+  <tr>
+    <td><img src="earth.jpg" height="100" width="100"></td>
+    <td><h1>Explore Amazon Travel Destinations</h1></td>
+    <td><img src="earth.jpg" height="100" width="100"></td>
+  </tr>
+</table>
+</marquee>
+
+<table border="1" height="50" width="1000" cellpadding="10" >
+    <tr>
+       <th rowspan="2">Destination</th>
+       <th colspan="2">Details</th>
+       <th rowspan="2" >Map</th>
+    </tr>
+
+    <tr>
+        <th>Image</th>
+        <th>Famous Spot</th>
+    </tr>
+
+    <tr>
+        <td height="100" width="200"><center><b>Paris</b><br><i>(France)</i></center></td>
+        <td><center><img src="./paris.jpg" alt="" height="100" width="200"></center></td> 
+        <td><ul>
+            <li>Eiffet Tower</li>
+            <li>Louvre Museum</li>
+            <li>Notre-Dame Cathedral</li>
+        </ul></td>
+        <td rowspan="3"><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387196.07670836255!2d-74.30915277037438!3d40.69667268701911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1753895733661!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center> </td>
+        
+    </tr>
+
+    <tr>
+        <td height="100" width="200"><center><b>Tokyo</b><br><i>(Japan)</i></center></td>
+        <td><center><img src="./tokyo.jpg" alt="" height="100" width="200"></center></td>
+        <td><ul>
+            <li>Tokyo Tower</li>
+            <li>Shinjuku Gyoen</li>
+            <li>Senso-ji Temple</li>
+        </ul></td>
+    </tr>
+
+    <tr>
+        <td height="100" width="200"><center><b>New York</b> <br> <i>(USA)</i></center></td>
+        <td><center><img src="./new york.jpg" alt="" height="100" width="200"></center></td>
+        <td><ul>
+            <li>Statue Of Liberty</li>
+            <li>Central Park</li>
+            <li>Times Square</li>
+        </ul></td>
+    </tr>
+
+    
+</table>
+</body>
+</html>
