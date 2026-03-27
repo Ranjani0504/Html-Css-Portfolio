@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer 
+{
+    background-image: linear-gradient(to right,hotpink,aqua,black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.outer > .box
+{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    color: white;
+}
+
+.outer > .box > h1
+{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.outer > .box:nth-child(2n+1)
+{
+    background-color: darkmagenta;
+}
+.outer > .box:nth-child(2)
+{
+    background-color: blue;
+}
+
+.outer > .box:nth-child(4)
+{
+    background-color: blue;
+}
+
+.outer > #b1:hover
+{
+    transform: scale(2.10);
+}
+
+.outer > #b2:hover
+{
+    transform: rotate(90deg);
+}
+
+.outer > #b3:hover
+{
+    /* transform: translateX(200px); */
+   /* transform: translateX(-200px); */
+   /* transform: translateY(200px); */
+   /* transform: translateY(-200px); */
+
+   transform: translate(-200px,-200px);
+}
+
+.outer > #b4:hover
+{
+    /* transform: skew(-90deg); */
+     transform: skew(90deg);
+     /* transform: skewX(80deg); */
+      /* transform: skewX(-80deg); */
+      /* transform: skewY(80deg); */
+      /* transform: skewY(-80deg); */
+
+}
+
+.outer > #b5:hover
+{
+    transform: translate(-300px,-300px) rotate(360deg) scale(2);
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}

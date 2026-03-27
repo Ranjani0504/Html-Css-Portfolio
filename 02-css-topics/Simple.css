@@ -1,0 +1,40 @@
+/* 1.TagName Selector */
+
+nav
+{
+    background-color: black;
+    color: aliceblue;
+}
+
+main
+{
+    height: 300px;
+    background-color: aqua;
+}
+
+/* 2.ID Selector */
+
+#logo
+{
+    color: burlywood;
+}
+
+/* 3.Class Selector */
+
+.para
+{
+    background-color: cornflowerblue;
+}
+
+/*4.Universal Selector */
+
+*{
+    font-style: italic;
+}
+
+/* 5.Group Selector */
+
+h3,h4,#logo,.para
+{
+    text-decoration: underline;
+}

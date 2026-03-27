@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+   background-image: linear-gradient(to right, red,yellow,black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer > .inner
+{
+   background-color: white;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 30px 40px;
+   box-shadow: 1px 3px 4px black;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 2px;
+
+    overflow: auto;
+   
+
+    /* overflow: hidden; */
+    /* overflow:visible; */
+    /* overflow:scroll; */
+    /* overflow: auto; */
+
+
+    /* overflow: visible; (default)
+    Extra content overflows outside the element. */
+    
+    /* overflow: hidden;
+    Extra content is cut off (not visible). */
+   
+    /* overflow: scroll;
+    Always shows scrollbars (horizontal/vertical) whether needed or not. */
+
+    /* overflow: auto;
+    Shows scrollbars only when needed. */
+
+    /* overflow-y: scroll; */
+    /* scroll the content y-axis side */
+
+}
+
+.outer > .inner > h1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.outer > .inner > p
+{
+    letter-spacing: 1px;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+/* In this scrollbar is used to remove scroll bar in the paragraph */

@@ -1,0 +1,135 @@
+/* *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+/* 3.Pseudo-classes selector */
+
+header > h1
+{
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgb(51, 0, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header > button
+{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header > button:hover
+{
+    background-color: aliceblue;
+    color:blueviolet ;
+}
+
+header > button:active
+{
+    background-color: hotpink;
+    color: aqua;
+}
+
+header > ol > li:nth-child(5)
+{
+    color: red;
+}
+
+header > ol > li:nth-child(2n)
+{
+    background-color: rgb(187, 12, 70);
+}
+
+header > ol > li:nth-child(2n+1)
+{
+    background-color: cyan;
+}
+
+.box > h1:nth-child(3)
+{
+    font-size: 19px;
+    color: blueviolet;
+}
+
+
+/*4.Pseudo Element Selector */
+main > h1
+{
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+main > p
+{
+    text-indent: 50px;
+    font-size: 30px;
+    color: chocolate;
+    text-align: justify;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+
+}
+
+main > p::first-letter
+{
+    font-size: 40px;
+}
+
+main > p::first-line
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main > h1::before
+{
+    content: "@@@";
+}
+
+main > h1::after
+{
+    content: "!!!";
+}
+
+main > p::selection
+{
+    color: hotpink;
+    background-color: black;
+}
+
+main > ul > li::marker
+{
+    color: red; 
+}
+
+main > ul > li:nth-child(2n)::marker
+{
+    color: navy;
+}
+
+/* 5.Attributes Selector */
+
+section > form > input[type="text"]
+{
+    background-color: blueviolet;
+    /*color: black;*/
+}
+
+section > a[href]
+{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-style: italic;
+}

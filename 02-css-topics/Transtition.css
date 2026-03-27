@@ -1,0 +1,45 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer 
+{
+    background-image: linear-gradient(to bottom,black, white,rgb(0, 120, 211));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer > .inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    border: none;
+    /* border-radius: 50%; */
+    /* box-shadow: 1px 3px 5px 2s ; */
+    background-color: red;
+
+    transition: all 6s ease 0.5s;
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
+}
+
+.outer > .inner:hover
+{
+    /* background-color: rgb(53, 10, 209); */
+    border-radius: 50%;
+    cursor: pointer;
+    
+    background-image: linear-gradient(to bottom,orange,white,green);
+
+}

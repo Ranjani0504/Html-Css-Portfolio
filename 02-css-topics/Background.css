@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    
+    /* background-color: yellow; */
+    height: 100vh;
+
+    background-image: linear-gradient(orange,white,green);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* 
+    background-image: url("https://www.wallsnapy.com/img_gallery/beast-vijay-hd-photos-download-2626309.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: contain; */
+
+
+}
+
+.outer > .inner 
+{
+    height: 450px;
+    width: 650px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px black;
+
+    background-image: url("https://www.wallsnapy.com/img_gallery/beast-vijay-hd-photos-download-2626309.jpg");
+
+    background-repeat:no-repeat;
+
+    background-position: center;
+
+    background-size: contain;
+     
+}
