@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#card1
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9Zch7v7X41bSIS5wEixbxaMD-SFdWT5Nkw&s");
+
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+#card2
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlc-EGX_Th3kZp8jN-kQsFSspxYjo9rbL7-g&s");
+
+    /* background-repeat: no-repeat; */
+     background-size: cover;
+}
+
+#card3
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSmMBRWvvB-NibO2JwzD6boS7P1AYgX80cEw&s");
+
+    background-size: cover;
+}
+
+#card4
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiB3k3v-gK5M90onuiLIKvFCqTdT9RJAVq2Q&s");
+
+    background-size: cover;
+}
+
+#card1 > h1
+{
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 8px;
+    color: white;
+   
+}
+
+#card2 > h1
+{
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 8px;
+    color: white;
+}
+
+#card3 > h1
+{
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 8px;
+    color: white;
+}
+
+#card4 > h1
+{
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 8px;
+    color: white;
+}

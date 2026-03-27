@@ -1,0 +1,76 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    background-color: hotpink;
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner
+{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.outer > .inner > h1
+{
+    color: red;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px black;
+}
+
+.outer > .inner > #india
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.outer > .inner > #india1
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-style: italic
+}
+
+.outer > .inner > button
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.outer > .inner > button:hover
+{
+    background-color: gray;
+    color: aqua;
+}
+
+.outer > .inner > img
+{
+    height: 100px;
+}

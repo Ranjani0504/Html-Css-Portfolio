@@ -1,0 +1,265 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer 
+{
+    height: 100vh;
+    background-color: red;
+    overflow: auto;
+}
+
+/* NAVIGATION BAR */
+
+.outer > nav
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+
+    /* A fixed element is positioned relative to the browser window (viewport), not relative to its parent element.
+
+    It doesn’t move when you scroll the page.
+
+    You can control its exact position using properties like top, right, bottom, and left. */
+    position: fixed;
+    top: 0px;
+
+    z-index: 1;
+    /* top: 50px; */
+   
+}
+
+.outer > nav > h1
+{
+    letter-spacing: 1px;
+}
+
+.outer > nav > ul 
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.outer > nav > .button 
+{
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.outer > nav > .button > #b
+{
+    padding: 5px;
+    width: 100px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: blue;
+    color: white ;
+    border: none;
+}
+
+.outer > nav > .button > #b:hover
+{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.outer > nav > .button > #b:active
+{
+     background-color: blue;
+     color: white ;   
+}
+
+/* SECTION */
+
+.outer > section
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.outer > section > .box
+{
+    background-color: pink;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 20px;
+
+    transition: all 1s ease-in;
+}
+
+.outer > section > #b:hover
+{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+.outer > section > .box > img
+{
+    height: 200px;
+    width: 150px;
+    padding-bottom: 10px;
+    
+}
+
+.outer > section > .box > h1
+{
+    text-transform: capitalize ;
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.outer > section > .box > h2
+{
+    text-transform: capitalize ;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* MAIN */
+.outer > main
+{
+    height: 300px;
+    /* position: sticky; */
+    /* top: 100px; */
+    background-color: rgb(7, 73, 135);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 50px;
+    color: white;
+}
+
+.outer > main > p
+{
+    padding: 20px;
+}
+.outer > main > h2
+{
+    /* padding: 20px; */
+    position: sticky;
+    top: 500px
+}
+
+/* MAP */
+.outer > .map > iframe
+{
+    width: 100%;
+    height: 400px;
+}
+
+/* CONTACT */
+.outer > .contact
+{
+    height: 450px;
+    background-color: crimson;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.outer > .contact > h1
+{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+     
+}
+.outer > .contact > form
+{
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    background-color: hotpink;
+}
+
+.outer > .contact > form > input
+{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    text-indent: 5px;
+    border:2px solid black;
+}
+
+.outer > .contact > form > button
+{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: blue;
+    color: white;
+}
+
+.outer > .contact > form > button:hover
+{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.outer > .contact > form > button:active
+{
+    background-color: blue;
+    color: white;
+}
+
+/* FOOTER */
+.outer > .footer
+{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > h1
+{
+    color: red;
+    font-size: 30px;
+    
+}
+nav > ul
+{
+    display: flex;
+    /* background-color: blueviolet; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav > ul > li:hover
+{
+    color: blue;
+}
+
+nav > div > #login
+{
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: hotpink;
+    
+    
+}
+
+nav > div > #signup
+{
+     font-weight: bold;
+     border-radius: 20px;
+    padding: 10px 30px;
+    font: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(238, 255, 105);
+}
+
+nav > div > #login:active
+{
+    background-color: darkmagenta;
+    color: white;
+}
+
+nav > div > #signup:active
+{
+    background-color: rgb(130, 0, 139);
+    color: white;
+}
+
+nav > h1 > span
+{
+    color: blue;
+}

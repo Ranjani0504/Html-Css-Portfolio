@@ -1,0 +1,290 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    background-color: rgb(199, 198, 205);
+    height: 100vh;
+   /* display: grid; */
+    
+}
+
+
+.outer  > nav
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    padding:5px 5px;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+img
+{
+    height: 20px;
+}
+
+.outer >nav > table 
+{
+   padding: 10px;
+   margin-left: 40px;
+   font-size: 17px;
+} 
+
+.outer >  nav > ul 
+{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 40px;
+}
+
+.outer >  nav > ul > li
+{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+.outer >  nav > ul > li:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+
+.outer > nav > .button
+{
+    margin-right: 50px;
+      /* border: none; */
+    border: 2px black;
+    
+}
+
+.outer > nav > .button > #signup
+{
+    padding: 7px;
+    /* font-weight: bold; */
+    color: rgb(12, 16, 236);
+    background-color: white;
+    text-transform: capitalize;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+    /* border: none; */
+    /* border: 2px black; */
+}
+
+.outer > nav > .button > #join
+{
+    padding: 7px;
+    /* font-weight: bold; */
+     color: rgb(12, 16, 236);
+    background-color: white;
+     text-transform: capitalize;
+     width: 80px;
+     font-size: 15px;
+     border-radius: 5px;
+     /* border: 2px black; */
+     /* border: none; */
+}
+.outer > nav > .button > #signup:hover
+{
+    color: white;
+    background-color: blue;
+}
+
+.outer > nav > .button > #join:hover
+{
+    color: white;
+    background-color: blue;
+}
+
+.outer > nav > .button > #signup:active
+{
+    color: rgb(47, 10, 231);
+    background-color: white;
+}
+
+
+.outer >nav > .button > #join:active
+{
+    color: rgb(47, 10, 231);
+    background-color: white;
+}
+
+.outer >.main
+{
+    display: flex;
+    background-color: pink;
+    height: calc(100vh - 150px);
+
+}
+.outer > .main >.left
+{
+    flex-basis: 50%;
+    background-color: white;
+    padding: 80px;
+    align-items: center;
+    text-align: justify;
+     /* height: 80px; */
+} 
+
+.outer > .main >.left > h1
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+   
+}
+
+.outer > .main >.left > p
+{
+    word-spacing: 5px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.outer > .main >.left > form > input
+{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.outer > .main >.left > form > input:active
+{
+    border: 1px solid blue;
+}
+
+.outer > .main >.left > form > button
+{
+    padding: 10px;
+    border: 1px solid blue;
+    width: 70px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: blue;
+    color: white;
+}
+
+.outer > .main >.left > form > button:hover
+{
+    background-color: white;
+    color: blue;
+}
+
+.outer > .main >.left > form > button:active
+{
+    background-color: blue;
+    color: white;   
+}
+
+
+.outer >.main > .right
+{
+    flex-basis: 50%;
+    background-color: rgb(236, 198, 8);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.outer > .main > .right > img
+{
+   height: 100%;
+   
+}
+
+.outer > .footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+}
+
+.outer > .footer > .lef
+{
+    flex-basis: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     /* gap: 20px; */
+
+}
+
+.outer > .footer > .rig
+{
+      flex-basis: 50%;   
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+}
+
+.outer > .footer > .lef > img
+{
+   height: 25px;
+
+}
+
+#twi
+{
+    height: 40px;
+}
+
+.outer > .footer > .rig 
+{
+    /* height: 50px; */
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+
+.outer > .footer > .rig > .im > img
+{
+    padding-right: 10px;
+    /* padding-bottom: 2px; */
+    height: 45px;  
+    /* margin-bottom: 5px; */
+}
+
+.outer > .footer > .rig > .img
+{
+    margin-bottom: 5px;
+}
+
+.outer > .footer > .rig > .img > #q
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.outer > .footer > .rig > .img > #t
+{
+    font-size: 15px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+}
+
+
+
+

@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.outer > .left
+{
+    flex-basis: 50%;
+    background-color: rgb(25, 0, 255);
+}
+/* if you use flex-basis means its not to mandatory to give height and width */
+
+.outer > .right
+{
+    flex-basis: 50%;
+    background-color: hotpink;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.outer > .left > img
+{
+    background-size: contain;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.outer > .right > main
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    
+}
+.outer > .right > main > h1
+{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+}
+
+
+
+.outer > .right > main > form
+ {
+    height: 380px;
+    width: 380px; 
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.outer > .right > main > form > label
+{
+    font-weight: bold;
+    font-size: 19px;    
+    text-indent: 5px;
+}
+
+.outer > .right > main > form > input
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 70%;
+    padding: 3px;
+    outline: none;
+    text-indent: 5px;
+   /* border-color: red; */
+   /* you give the border-color in input means it change bordercolor()You want to style that specific input box. */
+    
+}
+
+#name:focus
+{
+    border-color: darkblue;
+}
+
+.outer > .right > main > form > button
+{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.outer > .right > main > form > button:hover
+{
+    color: black;
+    background-color: rgb(111, 100, 237);
+}
+
+.outer > .right > main > form > button:active
+{
+    color: black;
+    background-color: yellow;
+}
+.outer > .right  > main > form >.footer
+{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer > .right >  main > form > .footer > p
+{
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    font-style: oblique;
+    
+}
+
+.outer > .right >  main > form > .footer > a
+{
+    outline: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    /* color: rgb(216, 14, 28); */
+    text-decoration: none;
+    /* If any text have underline means use (text-decoration) to remove the underline.*/
+}
+
